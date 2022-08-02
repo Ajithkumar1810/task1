@@ -1,0 +1,142 @@
+*{
+    width: 100%;
+    padding:0;
+}
+body{
+   
+    width: fit-content;
+    margin-left: 10%;
+    align-items: center;
+    margin-right: 10%;
+    
+    
+}
+header{
+    align-self: center;
+    width: 100%;
+    background:linear-gradient(135deg,rgb(15, 61, 88),rgb(14, 223, 246));
+    
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding-bottom: 4.5%;
+    
+    
+}
+.top{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    align-content: center;
+    
+}
+.titel{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.image {
+    width: 25%;;
+    height: 1px;
+    padding-right: 15%;
+}
+main{
+    width: 120%;
+    color: gray;
+    
+
+}
+.text_line{
+    text-align: center;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+#t3{
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 152%;
+}
+#t4{
+    padding-bottom: 2%;
+}
+.fly_boxs{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+.block1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(238, 233, 233),rgb(238, 233, 233));
+    height: 200px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-bottom: 10%;
+}
+.block2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(238, 233, 233),rgb(238, 233, 233));
+    height: 200px;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 10%;
+}
+.block3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(238, 233, 233),rgb(238, 233, 233));
+    height: 200px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+    padding-bottom: 10%;
+}
+
+#m{
+    padding-top:15%;
+    padding-bottom: 25%;
+    height: 100%;
+    width: 50%;
+}
+.block2 #m,.block3 #m{
+    padding-bottom: 30%;
+}
+.bottom{
+    align-self: center;
+    width: 100%;
+    background:linear-gradient(135deg,rgb(15, 61, 88),rgb(14, 223, 246));    
+    background-repeat: no-repeat;
+    background-size:100%;      
+    display: flex;
+    flex-direction: row;
+    
+}
+.user_image{ 
+    height: 100%;
+    width: 50%;
+}
+.text2{
+    font-size: 22px;
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 1%;
+}
