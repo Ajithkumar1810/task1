@@ -3,14 +3,78 @@
     padding:0;
 }
 body{
+    width: 85%;
+    
+    align-items: center;
+}
+.all{
    
-    width: fit-content;
+    width: 100%;
     margin-left: 10%;
     align-items: center;
-    margin-right: 10%;
+    /* margin-right: 10%; */
     
     
 }
+.top_class{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+   
+}
+
+.top_text1{
+    margin-right: 0%;
+    width: 100%;
+    background-color: white;
+    text-align:center;
+    margin-left:-20%;
+    color: rgb(6, 138, 208);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.topnav {
+    background-color: rgb(250, 250, 250);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 0;
+    /* border: #eeebeb;
+    border-style: inset; */
+    
+    
+  }
+  
+  .topnav a {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: center;
+    color: rgb(6, 138, 208);
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 20px;
+    /* border: #f2f2f2;
+    border-style: inset; */
+    
+    
+    
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 header{
     align-self: center;
     width: 100%;
@@ -45,8 +109,12 @@ header{
     padding-right: 15%;
 }
 main{
-    width: 120%;
+    width: 100%;
     color: gray;
+    text-align: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 0;
     
 
 }
@@ -63,7 +131,7 @@ main{
     color: black;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 152%;
+    font-size: 20px;
 }
 #t4{
     padding-bottom: 2%;
@@ -72,6 +140,7 @@ main{
     display: flex;
     flex-direction: row;
     max-width: 100%;
+   
 }
 .block1{
     text-align: center;
@@ -83,7 +152,7 @@ main{
     flex-direction: column;
     align-items: center;
     
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 .block2{
     text-align: center;
@@ -96,7 +165,7 @@ main{
     align-items: center;
     margin-left: 2%;
     margin-right: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 .block3{
     text-align: center;
@@ -108,7 +177,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin-right: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 
 #m{
@@ -117,8 +186,11 @@ main{
     height: 100%;
     width: 50%;
 }
-.block2 #m,.block3 #m{
+.block2 #m{
     padding-bottom: 30%;
+}
+.block3 #m{
+    padding-bottom: 35%;
 }
 .bottom{
     align-self: center;
