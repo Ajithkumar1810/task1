@@ -301,4 +301,16 @@ main{
   text-decoration: none;
   width: 100%;
   }
+  .end{
+    display: flex;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    
+  }
+  .end label[name="ss"]{
+    padding-left: 8%;
+  }
+  .end label[name="ss2"]{
+    padding-right: 8%;
+  }
   
