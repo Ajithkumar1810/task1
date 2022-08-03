@@ -202,6 +202,10 @@ main{
     flex-direction: row;
     
 }
+.block1:hover,.block2:hover,.block3:hover{
+    cursor: pointer;
+    background-color:linear-gradient(green);
+}
 .user_image{ 
     height: 100%;
     width: 50%;
@@ -212,3 +216,55 @@ main{
     text-align: justify;
     margin-right: 1%;
 }
+.boxing{
+    
+        box-sizing: border-box;
+        
+        width: 100%;
+      
+}
+.slideshow{
+    position: relative;
+    padding-top: 30%;
+    
+    
+}
+.myslide{
+    display: default;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(93, 78, 55);
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(172, 13, 13, 0.8);
+  }
+  .myslide{
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    text-align: center;
+  }
+ 
