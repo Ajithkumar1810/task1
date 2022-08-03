@@ -230,7 +230,7 @@ main{
     
 }
 .myslide{
-    display: default;
+    display: block;
 }
 .prev,
 .next {
@@ -239,7 +239,7 @@ main{
   top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
+  
   color: rgb(11, 11, 11);
   font-weight: bold;
   font-size: 20px;
@@ -261,10 +261,44 @@ main{
   .myslide{
     color: black;
     font-size: 15px;
-    padding: 8px 12px;
+    
     position: absolute;
     top: 0;
     background-color: white;
     text-align: center;
   }
- 
+  .footer{
+    background-color:transparent;
+  }
+  .contacts{
+    padding-top: 2%;
+    background-color: rgb(28, 25, 25);
+    color:white;
+    display: flex;
+    padding-left: 8%;
+    width: 90%;
+    padding-right: 2%;
+    height:260px;
+  }
+  .c1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  .c1 label[name="la1"]{
+    font-size: x-large;
+    width: 100%;
+  }
+  .c1 label[name="la2"]{
+    color: rgb(225, 214, 214);
+    cursor: auto;
+    width: 100%;
+    font-size: medium;
+  }
+  a{
+    color:rgb(225, 214, 214);
+  text-decoration: none;
+  width: 100%;
+  }
+  
